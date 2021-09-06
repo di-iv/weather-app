@@ -1,20 +1,8 @@
 <template>
   <div id="app">
-    <Weather/>
+    <router-view/>
   </div>
 </template>
-
-<script>
-import Weather from './components/Weather.vue'
-
-export default {
-  name: 'App',
-  components: {
-    Weather
-  },
-
-}
-</script>
 
 <style>
 #app {
@@ -26,5 +14,8 @@ export default {
 body{
   padding: 0;
   margin: 0;
+  /* background-image: url(https://img5.goodfon.ru/wallpaper/nbig/9/de/zima-sneg-derevia-peizazh-zimnii-elki-landscape-beautiful--1.jpg); */
+  background-image: url(https://img2.goodfon.ru/wallpaper/nbig/0/e9/priroda-derevya-les-doroga-7284.jpg);
+  background-size: cover;
 }
 </style>
